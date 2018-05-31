@@ -42,7 +42,8 @@ class CreateLink extends Component {
         description,
         url
       }
-    })
+    });
+    this.props.history.push('/');
   }
 }
 
